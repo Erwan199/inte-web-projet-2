@@ -17,9 +17,6 @@ html .container .left-panel, body .container .left-panel {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   width: 40%;
 }
 
@@ -29,13 +26,32 @@ html .container .right-panel, body .container .right-panel {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
   width: 60%;
 }
 
 html section, body section {
   background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html section .sec-img, body section .sec-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  background-image: url("../img/student.jpg");
+}
+
+html section .sec-txt, body section .sec-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
