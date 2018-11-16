@@ -37,21 +37,23 @@ html section, body section {
 }
 
 html section .sec-img, body section .sec-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  /*background-image: url("../img/student.jpg");*/
+  padding: 5%;
   width: 50%;
-  background-image: url("../img/student.jpg");
 }
 
 html section .sec-txt, body section .sec-txt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: block;
   width: 50%;
+  padding: 3%;
+}
+
+html section .sec-txt div, body section .sec-txt div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

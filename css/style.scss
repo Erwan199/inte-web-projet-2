@@ -25,16 +25,20 @@ html, body {
         display: flex;
 
         .sec-img{
-            display: flex;
-            flex-wrap: wrap;
+            /*background-image: url("../img/student.jpg");*/
+            padding: 5%;
             width: 50%;
-            background-image: url("../img/student.jpg")
         }
 
         .sec-txt{
-            display: flex;
-            flex-wrap: wrap;
+            display: block;
             width: 50%;
+            padding: 3%;
+
+            div{
+                align-items: center;
+                justify-content: center;
+            }
         }
     }
 }
