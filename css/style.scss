@@ -3,4 +3,26 @@ html, body {
     height  : 100%;
     margin  : 0;
     font-family: Arial, Helvetica, sans-serif;
+
+    .container{
+        display: flex;
+
+        .left-panel{
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            width: 40%;
+        }
+
+        .right-panel{
+            display: flex;
+            flex-wrap: wrap;
+            flex: 2;
+            width: 60%;
+        }
+    }
+
+    section{
+        background-color: grey;
+    }
 }
