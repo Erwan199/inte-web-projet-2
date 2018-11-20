@@ -18,8 +18,12 @@ html .container .left-panel, body .container .left-panel {
   background-color: LightGray;
 }
 
+html .container .left-panel img, body .container .left-panel img {
+  width: 30%;
+}
+
 html .container .left-panel div, body .container .left-panel div {
-  margin-top: 45%;
+  margin-top: 35%;
 }
 
 html .container .left-panel div p, body .container .left-panel div p {
