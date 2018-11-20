@@ -13,10 +13,32 @@ html .container, body .container {
 
 html .container .left-panel, body .container .left-panel {
   width: 40%;
+  padding: 3%;
 }
 
-html .container .left-panel img, body .container .left-panel img {
-  padding: 3%;
+html .container .left-panel div, body .container .left-panel div {
+  margin-top: 45%;
+}
+
+html .container .left-panel div p, body .container .left-panel div p {
+  margin-top: 5%;
+}
+
+html .container .left-panel div button, body .container .left-panel div button {
+  width: 300px;
+  height: 50px;
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5%;
+}
+
+html .container .left-panel div button:hover, body .container .left-panel div button:hover {
+  background-color: #fff;
+  border: solid 3px DodgerBlue;
+  color: DodgerBlue;
 }
 
 html .container .right-panel, body .container .right-panel {
