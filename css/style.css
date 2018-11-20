@@ -42,12 +42,9 @@ html .container .left-panel div button:hover, body .container .left-panel div bu
 }
 
 html .container .right-panel, body .container .right-panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 60%;
+  background-image: url("../img/campus.jpg");
+  background: no-repeat;
 }
 
 html .container .right-panel nav, body .container .right-panel nav {
@@ -97,6 +94,10 @@ html .container .right-panel nav ul li a, body .container .right-panel nav ul li
 
 html .container .right-panel nav ul li li a:hover, body .container .right-panel nav ul li li a:hover {
   color: #088;
+}
+
+html .container .right-panel img, body .container .right-panel img {
+  height: 50%;
 }
 
 html section, body section {

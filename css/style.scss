@@ -38,9 +38,9 @@ html, body {
         }
         
         .right-panel{
-            display: flex;
-            flex-wrap: wrap;
             width: 60%;
+            background-image: url("../img/campus.jpg");
+            background: no-repeat;
             
             nav{
                 width       : 100%;
@@ -80,6 +80,10 @@ html, body {
                         }
                     }
                 }
+            }
+
+            img {
+                height: 50%;
             }
         }
     }
