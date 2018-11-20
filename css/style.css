@@ -9,11 +9,13 @@ html .container, body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
 }
 
 html .container .left-panel, body .container .left-panel {
   width: 40%;
   padding: 3%;
+  background-color: LightGray;
 }
 
 html .container .left-panel div, body .container .left-panel div {
@@ -42,12 +44,11 @@ html .container .left-panel div button:hover, body .container .left-panel div bu
 }
 
 html .container .right-panel, body .container .right-panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 60%;
+  background: url("../img/campus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 html .container .right-panel nav, body .container .right-panel nav {
@@ -58,7 +59,7 @@ html .container .right-panel nav, body .container .right-panel nav {
   display: -ms-flexbox;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: red;
+  background-color: #fff;
 }
 
 html .container .right-panel nav .logo_navbar, body .container .right-panel nav .logo_navbar {
@@ -99,15 +100,19 @@ html .container .right-panel nav ul li li a:hover, body .container .right-panel 
   color: #088;
 }
 
+html .container .right-panel .filieres, body .container .right-panel .filieres {
+  background-color: LightGray;
+}
+
 html section, body section {
-  background-color: grey;
+  background-color: LightGray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-top: solid 2px #fff;
 }
 
 html section .sec-img, body section .sec-img {
-  /*background-image: url("../img/student.jpg");*/
   padding: 5%;
   width: 40%;
 }
