@@ -75,13 +75,14 @@ html section, body section {
 html section .sec-img, body section .sec-img {
   /*background-image: url("../img/student.jpg");*/
   padding: 5%;
-  width: 50%;
+  width: 40%;
 }
 
 html section .sec-txt, body section .sec-txt {
   display: block;
-  width: 50%;
-  padding: 3%;
+  width: 60%;
+  padding-right: 7%;
+  margin: auto;
 }
 
 html section .sec-txt div, body section .sec-txt div {
