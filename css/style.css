@@ -37,7 +37,6 @@ html .container .right-panel nav, body .container .right-panel nav {
 }
 
 html .container .right-panel nav .logo_navbar, body .container .right-panel nav .logo_navbar {
-  widows: 50px;
   height: 50px;
   margin-top: auto;
   margin-bottom: auto;
