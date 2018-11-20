@@ -76,6 +76,10 @@ html .container .right-panel nav ul li, body .container .right-panel nav ul li {
   margin-left: 15px;
 }
 
+html .container .right-panel nav ul li a, body .container .right-panel nav ul li a {
+  color: DodgerBlue;
+}
+
 html .container .right-panel .filieres, body .container .right-panel .filieres {
   background-color: LightGray;
   display: inline-block;
