@@ -57,12 +57,14 @@ html, body {
                 padding: 10px;
 
                 ul{
+                    list-style:none;
                     display: flex;
 
                     li{
                         flex :1;
-                        padding-left: 15px;
-                        margin-left: 15px;
+                        margin-left: auto;
+                        display:inline-block;
+                        vertical-align:middle;
 
                         a{
                             color: DodgerBlue;
