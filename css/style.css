@@ -16,13 +16,35 @@ html .container .left-panel, body .container .left-panel {
   padding: 3%;
 }
 
+html .container .left-panel div, body .container .left-panel div {
+  margin-top: 45%;
+}
+
+html .container .left-panel div p, body .container .left-panel div p {
+  margin-top: 5%;
+}
+
+html .container .left-panel div button, body .container .left-panel div button {
+  width: 300px;
+  height: 50px;
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5%;
+}
+
+html .container .left-panel div button:hover, body .container .left-panel div button:hover {
+  background-color: #fff;
+  border: solid 3px DodgerBlue;
+  color: DodgerBlue;
+}
+
 html .container .right-panel, body .container .right-panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 60%;
+  background-image: url("../img/campus.jpg");
+  background: no-repeat;
 }
 
 html .container .right-panel nav, body .container .right-panel nav {
@@ -71,6 +93,10 @@ html .container .right-panel nav ul li a, body .container .right-panel nav ul li
 
 html .container .right-panel nav ul li li a:hover, body .container .right-panel nav ul li li a:hover {
   color: #088;
+}
+
+html .container .right-panel img, body .container .right-panel img {
+  height: 50%;
 }
 
 html section, body section {

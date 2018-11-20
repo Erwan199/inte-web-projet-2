@@ -11,14 +11,36 @@ html, body {
             width: 40%;
             padding: 3%;
 
-            img{
+            div{
+                margin-top: 45%;
+
+                p{
+                    margin-top: 5%;
+                }
+
+                button{
+                    width: 300px;
+                    height: 50px;
+                    background-color: DodgerBlue;
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    color: #fff;
+                    margin-top: 5%;
+
+                    &:hover{
+                        background-color: #fff;
+                        border : solid 3px DodgerBlue;
+                        color: DodgerBlue;
+                    }
+                }
             }
         }
         
         .right-panel{
-            display: flex;
-            flex-wrap: wrap;
             width: 60%;
+            background-image: url("../img/campus.jpg");
+            background: no-repeat;
             
             nav{
                 width       : 100%;
@@ -58,6 +80,10 @@ html, body {
                         }
                     }
                 }
+            }
+
+            img {
+                height: 50%;
             }
         }
     }
