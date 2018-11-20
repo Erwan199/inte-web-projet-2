@@ -52,56 +52,35 @@ html .container .right-panel, body .container .right-panel {
 }
 
 html .container .right-panel nav, body .container .right-panel nav {
-  width: 100%;
-  height: 70px;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
-}
-
-html .container .right-panel nav .logo_navbar, body .container .right-panel nav .logo_navbar {
-  widows: 50px;
+  width: 100%;
   height: 50px;
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 10px;
 }
 
 html .container .right-panel nav ul, body .container .right-panel nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-decoration: none;
 }
 
 html .container .right-panel nav ul li, body .container .right-panel nav ul li {
-  height: 25px;
-  margin: auto;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding-left: 15px;
   margin-left: 15px;
-  text-decoration: none;
-}
-
-html .container .right-panel nav ul li a, body .container .right-panel nav ul li a {
-  width: 100%;
-  color: #666;
-  text-align: center;
-  text-decoration: none;
-}
-
-html .container .right-panel nav ul li li a:hover, body .container .right-panel nav ul li li a:hover {
-  color: #088;
 }
 
 html .container .right-panel .filieres, body .container .right-panel .filieres {
   background-color: LightGray;
+  display: inline-block;
+  padding: 2%;
+  margin-top: 300px;
+}
+
+html .container .right-panel .filieres h1, body .container .right-panel .filieres h1 {
+  text-align: center;
 }
 
 html section, body section {

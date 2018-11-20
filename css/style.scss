@@ -47,40 +47,21 @@ html, body {
             background-position: center center;
             
             nav{
-                width       : 100%;
-                height      : 70px;
-                padding     : 10px;
-                display     : flex;
-                font-family : Arial, Helvetica, sans-serif;
                 background-color: #fff;
-                
-                .logo_navbar{
-                    widows : 50px;
-                    height : 50px;
-                    margin-top : auto;
-                    margin-bottom : auto;
-                }
-                
+                width: 100%;
+                height: 50px;
+                padding: 10px;
+
                 ul{
-                    display         : flex;
-                    align-content   : center;
-                    text-decoration : none;
-                    
-                    li {
-                        height  : 25px;
-                        margin : auto;
+                    display: flex;
+
+                    li{
                         flex :1;
                         padding-left: 15px;
                         margin-left: 15px;
-                        text-decoration : none;
+                        
                         a{
-                            width           : 100%;
-                            color           :#666;
-                            text-align      : center;
-                            text-decoration : none;
-                        }
-                        li a:hover {
-                            color : #088;
+
                         }
                     }
                 }
@@ -88,6 +69,13 @@ html, body {
 
             .filieres{
                 background-color: LightGray;
+                display: inline-block;
+                padding: 2%;
+                margin-top: 300px;
+                
+                h1{
+                    text-align: center;
+                }
             }
         }
     }
