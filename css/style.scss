@@ -6,10 +6,12 @@ html, body {
     
     .container{
         display: flex;
-        
+        height: 100%;
+
         .left-panel{
             width: 40%;
             padding: 3%;
+            background-color: LightGray;
 
             div{
                 margin-top: 45%;
@@ -39,8 +41,10 @@ html, body {
         
         .right-panel{
             width: 60%;
-            background-image: url("../img/campus.jpg");
-            background: no-repeat;
+            background: url("../img/campus.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
             
             nav{
                 width       : 100%;
@@ -48,13 +52,13 @@ html, body {
                 padding     : 10px;
                 display     : flex;
                 font-family : Arial, Helvetica, sans-serif;
-                background-color: red;
+                background-color: #fff;
                 
                 .logo_navbar{
+                    widows : 50px;
                     height : 50px;
                     margin-top : auto;
                     margin-bottom : auto;
-
                 }
                 
                 ul{
@@ -82,18 +86,18 @@ html, body {
                 }
             }
 
-            img {
-                height: 50%;
+            .filieres{
+                background-color: LightGray;
             }
         }
     }
     
     section{
-        background-color: grey;
+        background-color: LightGray;
         display: flex;
+        border-top: solid 2px #fff;
         
         .sec-img{
-            /*background-image: url("../img/student.jpg");*/
             padding: 5%;
             width: 40%;
         }
