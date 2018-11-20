@@ -8,9 +8,11 @@ html, body {
         display: flex;
 
         .left-panel{
-            display: flex;
-            flex-wrap: wrap;
             width: 40%;
+
+                img{
+                    padding: 3%;
+                }
         }
 
         .right-panel{
