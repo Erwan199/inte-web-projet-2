@@ -12,12 +12,11 @@ html .container, body .container {
 }
 
 html .container .left-panel, body .container .left-panel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 40%;
+}
+
+html .container .left-panel img, body .container .left-panel img {
+  padding: 3%;
 }
 
 html .container .right-panel, body .container .right-panel {
