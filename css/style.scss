@@ -13,13 +13,17 @@ html, body {
             padding: 3%;
             background-color: LightGray;
 
+            img{
+                width: 30%;
+            }
+
             div{
-                margin-top: 45%;
+                margin-top: 35%;
 
                 p{
                     margin-top: 5%;
                 }
-
+                
                 button{
                     width: 300px;
                     height: 50px;
@@ -29,7 +33,7 @@ html, body {
                     font-weight: bold;
                     color: #fff;
                     margin-top: 5%;
-
+                    
                     &:hover{
                         background-color: #fff;
                         border : solid 3px DodgerBlue;
@@ -59,9 +63,9 @@ html, body {
                         flex :1;
                         padding-left: 15px;
                         margin-left: 15px;
-                        
-                        a{
 
+                        a{
+                            color: DodgerBlue;
                         }
                     }
                 }
@@ -95,7 +99,7 @@ html, body {
             width: 60%;
             padding-right: 7%;
             margin: auto;
-
+            
             div{
                 align-items: center;
                 justify-content: center;
