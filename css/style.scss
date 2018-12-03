@@ -7,19 +7,22 @@ html, body {
     .container{
         display: flex;
         height: 100%;
-
+        
         .left-panel{
             width: 40%;
             padding: 3%;
             background-color: LightGray;
-
+            
             img{
                 width: 30%;
             }
-
+            
             div{
-                margin-top: 35%;
+                margin-top: 250px;
 
+                p{
+                    margin-top: 5%;
+                }
                 
                 button{
                     width: 300px;
@@ -37,6 +40,13 @@ html, body {
                         color: DodgerBlue;
                     }
                 }
+
+                img{
+                    display: none;
+                    margin: auto;
+                    margin-top: 20%;
+                    width: 100%;
+                }
             }
         }
         
@@ -51,25 +61,32 @@ html, body {
                 background-color: #fff;
                 width: 100%;
                 height: 50px;
-                padding: 10px;
-
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
                 ul{
                     list-style:none;
                     display: flex;
-
+                    
                     li{
-                        flex :1;
-                        margin-left: auto;
+                        margin: auto;
                         display:inline-block;
                         vertical-align:middle;
-
+                        
                         a{
-                            color: DodgerBlue;
+                            color: black;
+                            text-decoration: none;
+
+                            &:hover{
+                                color: DodgerBlue;
+                                border-bottom: solid 2px DodgerBlue;
+                            }
                         }
+                        
                     }
                 }
             }
-
+            
             .filieres{
                 background-color: LightGray;
                 display: inline-block;
@@ -105,9 +122,41 @@ html, body {
             }
         }
     }
+}
 
-    footer{
-        background-color: grey;
-        text-align: center;
+@media screen and (max-width: 410px) {
+
+}
+
+@media screen and (max-width: 765px) { 
+
+        .container{
+        display: flex;
+
+        .left-panel{
+            width: 100% !important;
+
+            div{
+                margin-top: 20% !important;
+                text-align: center;
+
+                h1{
+                    margin-bottom: 10%;
+                }
+
+                img{
+                    display: block !important;
+                }
+            }
+        }
+    }
+
+    section{
+        display: none !important;
+    }
+
+    .right-panel{
+        display: none;
     }
 }
+
