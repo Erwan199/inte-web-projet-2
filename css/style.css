@@ -26,10 +26,6 @@ html .container .left-panel div, body .container .left-panel div {
   margin-top: 35%;
 }
 
-html .container .left-panel div p, body .container .left-panel div p {
-  margin-top: 5%;
-}
-
 html .container .left-panel div button, body .container .left-panel div button {
   width: 300px;
   height: 50px;
