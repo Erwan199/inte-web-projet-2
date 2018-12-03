@@ -47,6 +47,10 @@ html .container .left-panel div button:hover, body .container .left-panel div bu
   color: DodgerBlue;
 }
 
+html .container .left-panel div img, body .container .left-panel div img {
+  display: none;
+}
+
 html .container .right-panel, body .container .right-panel {
   width: 60%;
   background: url("../img/campus.jpg");
@@ -135,17 +139,35 @@ html footer p, body footer p {
 }
 
 @media screen and (max-width: 410px) {
-  .left-panel {
-    width: 100%;
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-  .right-panel {
-    display: none;
+  .container .left-panel {
+    width: 100% !important;
+  }
+  .container .left-panel div {
+    margin-top: 20% !important;
+    text-align: center;
+  }
+  .container .left-panel div h1 {
+    margin-bottom: 10%;
+  }
+  .container .left-panel div p {
+    Line-Height: 2.5;
+  }
+  .container .left-panel div img {
+    display: block !important;
+  }
+  section {
+    display: none !important;
   }
 }
 
 @media screen and (max-width: 765px) {
   .left-panel {
-    width: 100%;
+    width: 100% !important;
   }
   .right-panel {
     display: none;
