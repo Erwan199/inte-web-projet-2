@@ -125,12 +125,12 @@ html section .sec-txt div, body section .sec-txt div {
           justify-content: center;
 }
 
-html iframe, body iframe {
-  height: 100%;
-}
-
 html footer, body footer {
   background-color: grey;
   text-align: center;
+}
+
+html footer p, body footer p {
+  margin-top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
