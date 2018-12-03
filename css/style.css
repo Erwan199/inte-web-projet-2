@@ -133,4 +133,22 @@ html footer, body footer {
 html footer p, body footer p {
   margin-top: 0px;
 }
+
+@media screen and (max-width: 410px) {
+  .left-panel {
+    width: 100%;
+  }
+  .right-panel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .left-panel {
+    width: 100%;
+  }
+  .right-panel {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
