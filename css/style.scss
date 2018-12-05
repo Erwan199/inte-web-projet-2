@@ -132,9 +132,11 @@ html, body {
 
         .container{
         display: flex;
+        height: auto !important;
 
         .left-panel{
             width: 100% !important;
+            padding: 0% !important;
 
             div{
                 margin-top: 20% !important;
