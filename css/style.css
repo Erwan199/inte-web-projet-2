@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
 }
 
 html .container, body .container {
@@ -15,7 +16,6 @@ html .container, body .container {
 html .container .left-panel, body .container .left-panel {
   width: 40%;
   padding: 3%;
-  background-color: LightGray;
 }
 
 html .container .left-panel img, body .container .left-panel img {
@@ -105,7 +105,6 @@ html .container .right-panel .filieres h1, body .container .right-panel .filiere
 }
 
 html section, body section {
-  background-color: LightGray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,6 +130,41 @@ html section .sec-txt div, body section .sec-txt div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+html .formulaire, body .formulaire {
+  border-top: solid 2px #fff;
+  text-align: center;
+}
+
+html .formulaire form, body .formulaire form {
+  width: 400px;
+  padding-left: 4%;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+html .formulaire form label, body .formulaire form label {
+  display: inline-block;
+  text-align: right;
+  margin-top: 5%;
+}
+
+html .formulaire form input, html .formulaire form textarea, body .formulaire form input, body .formulaire form textarea {
+  width: 300px;
+  border: 1px solid #999;
+  border-radius: 1em;
+  padding: 1%;
+}
+
+html .formulaire form textarea, body .formulaire form textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+html iframe, body iframe {
+  margin-top: 2%;
 }
 
 @media screen and (max-width: 765px) {
