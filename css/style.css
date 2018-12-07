@@ -143,8 +143,9 @@ html .formulaire, body .formulaire {
 }
 
 html .formulaire form, body .formulaire form {
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
-  padding-left: 4%;
   border: 3px solid #fff;
   border-radius: 20px;
 }
@@ -166,6 +167,22 @@ html .formulaire form textarea, body .formulaire form textarea {
   vertical-align: top;
   height: 5em;
   resize: vertical;
+}
+
+html .formulaire button, body .formulaire button {
+  width: 130px;
+  height: 40px;
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+html .formulaire button:hover, body .formulaire button:hover {
+  background-color: #fff;
+  border: solid 3px DodgerBlue;
+  color: DodgerBlue;
 }
 
 html iframe, body iframe {
@@ -191,6 +208,10 @@ html iframe, body iframe {
   }
   section {
     display: none !important;
+  }
+  form {
+    width: 100% !important;
+    border: none !important;
   }
   .right-panel {
     display: none;

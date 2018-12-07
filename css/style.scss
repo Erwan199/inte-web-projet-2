@@ -132,8 +132,9 @@ html, body {
         text-align: center;
 
         form {
+            margin-left: auto;
+            margin-right: auto;
             width: 400px;
-            padding-left: 4%;
             border: 3px solid #fff; 
             border-radius: 20px;
 
@@ -155,6 +156,22 @@ html, body {
                 height: 5em;
                 resize: vertical;
             }
+        }
+
+        button {
+            width: 130px;
+            height: 40px;
+            background-color: DodgerBlue;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #fff;
+
+            &:hover{
+                background-color: #fff;
+                border : solid 3px DodgerBlue;
+                color: DodgerBlue;
+                }
         }
     }
 
@@ -193,6 +210,11 @@ html, body {
 
     section{
         display: none !important;
+    }
+
+    form {
+        width: 100% !important;
+        border: none !important;
     }
 
     .right-panel{
