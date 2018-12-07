@@ -132,6 +132,11 @@ html section .sec-txt div, body section .sec-txt div {
           justify-content: center;
 }
 
+html section .sec-txt div p, body section .sec-txt div p {
+  text-align: justify;
+  font-style: oblique;
+}
+
 html .formulaire, body .formulaire {
   border-top: solid 2px #fff;
   text-align: center;

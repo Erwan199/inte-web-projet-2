@@ -118,6 +118,11 @@ html, body {
             div{
                 align-items: center;
                 justify-content: center;
+                
+                p {
+                    text-align: justify;
+                    font-style: oblique;
+                }
             }
         }
     }
