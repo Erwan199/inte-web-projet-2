@@ -210,8 +210,8 @@ html iframe, body iframe {
     display: none !important;
   }
   form {
-    width: 100%;
-    border: none;
+    width: 100% !important;
+    border: none !important;
   }
   .right-panel {
     display: none;
