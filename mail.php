@@ -8,8 +8,7 @@
         <p>
         <?php
         $retour = mail('erwan.battais@ynov.com', 'Envoi depuis le site test', $_POST['message'], 'From : webmaster@free.fr');
-        if ($retour)
-            echo 'Votre message a bien été envoyé !';
+        
         ?>
         </p>
     </body>
