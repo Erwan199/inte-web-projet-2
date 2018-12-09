@@ -6,6 +6,10 @@ html, body {
   background-color: lightgray;
 }
 
+html h2, body h2 {
+  text-decoration: underline;
+}
+
 html .container, body .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,7 +149,7 @@ html .formulaire, body .formulaire {
 html .formulaire form, body .formulaire form {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 60%;
   border: 3px solid #fff;
   border-radius: 20px;
 }
@@ -154,13 +158,14 @@ html .formulaire form label, body .formulaire form label {
   display: inline-block;
   text-align: right;
   margin-top: 5%;
+  margin-bottom: 1%;
 }
 
 html .formulaire form input, html .formulaire form textarea, body .formulaire form input, body .formulaire form textarea {
-  width: 300px;
+  width: 80%;
   border: 1px solid #999;
   border-radius: 1em;
-  padding: 1%;
+  padding: 0.5%;
 }
 
 html .formulaire form textarea, body .formulaire form textarea {
@@ -169,7 +174,7 @@ html .formulaire form textarea, body .formulaire form textarea {
   resize: vertical;
 }
 
-html .formulaire button, body .formulaire button {
+html .formulaire form button, body .formulaire form button {
   width: 130px;
   height: 40px;
   background-color: DodgerBlue;
@@ -179,10 +184,14 @@ html .formulaire button, body .formulaire button {
   color: #fff;
 }
 
-html .formulaire button:hover, body .formulaire button:hover {
+html .formulaire form button:hover, body .formulaire form button:hover {
   background-color: #fff;
   border: solid 3px DodgerBlue;
   color: DodgerBlue;
+}
+
+html .formulaire form:hover, body .formulaire form:hover {
+  border-color: dodgerblue;
 }
 
 html iframe, body iframe {
@@ -198,10 +207,10 @@ html iframe, body iframe {
   }
   .container .left-panel div {
     margin-top: 20% !important;
-    text-align: center;
+    text-align: center !important;
   }
   .container .left-panel div h1 {
-    margin-bottom: 10%;
+    margin-bottom: 10% !important;
   }
   .container .left-panel div img {
     display: block !important;
@@ -212,6 +221,9 @@ html iframe, body iframe {
   form {
     width: 100% !important;
     border: none !important;
+  }
+  form input, form textarea {
+    padding: 2% !important;
   }
   .right-panel {
     display: none;
