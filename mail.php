@@ -7,7 +7,7 @@
     <body>
         <p>
         <?php
-        $retour = mail('erwan.battais@ynov.com', 'Envoi depuis le site test', $_POST['message'], 'From : webmaster@free.fr');
+        $retour = mail('exemple@test.com', 'Envoi depuis le site test', $_POST['nom'], $_POST['prenom'], $_POST['email'], $_POST['message'], 'From : exemple@test.com');
         
         ?>
         </p>

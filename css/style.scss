@@ -138,7 +138,7 @@ html, body {
         form {
             margin-left: auto;
             margin-right: auto;
-            width: 60%;
+            width: 45%;
             border: 3px solid #fff; 
             border-radius: 20px;
 
@@ -179,7 +179,9 @@ html, body {
             }
 
             &:hover{
-                border-color: dodgerblue;
+                border: solid 4px dodgerblue;
+                color: #fff;
+                background-image: url("../img/contact.jpg");
             }
         }
     }

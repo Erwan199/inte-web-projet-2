@@ -149,7 +149,7 @@ html .formulaire, body .formulaire {
 html .formulaire form, body .formulaire form {
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 45%;
   border: 3px solid #fff;
   border-radius: 20px;
 }
@@ -191,7 +191,9 @@ html .formulaire form button:hover, body .formulaire form button:hover {
 }
 
 html .formulaire form:hover, body .formulaire form:hover {
-  border-color: dodgerblue;
+  border: solid 4px dodgerblue;
+  color: #fff;
+  background-image: url("../img/contact.jpg");
 }
 
 html iframe, body iframe {
