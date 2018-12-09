@@ -230,6 +230,12 @@ html, body {
         input, textarea {
             padding: 2% !important;
         }
+
+        &:hover{
+                border: inherit;
+                color: inherit;
+                background-image: inherit;
+        }
     }
 
     .right-panel{

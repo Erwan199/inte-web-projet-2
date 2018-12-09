@@ -227,6 +227,11 @@ html iframe, body iframe {
   form input, form textarea {
     padding: 2% !important;
   }
+  form:hover {
+    border: inherit;
+    color: inherit;
+    background-image: inherit;
+  }
   .right-panel {
     display: none;
   }
