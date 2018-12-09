@@ -10,6 +10,20 @@ html h2, body h2 {
   text-decoration: underline;
 }
 
+html button, body button {
+  background-color: DodgerBlue;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+html button:hover, body button:hover {
+  background-color: #fff;
+  border: solid 3px DodgerBlue;
+  color: DodgerBlue;
+}
+
 html .container, body .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,18 +51,7 @@ html .container .left-panel div p, body .container .left-panel div p {
 html .container .left-panel div button, body .container .left-panel div button {
   width: 300px;
   height: 50px;
-  background-color: DodgerBlue;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  color: #fff;
   margin-top: 5%;
-}
-
-html .container .left-panel div button:hover, body .container .left-panel div button:hover {
-  background-color: #fff;
-  border: solid 3px DodgerBlue;
-  color: DodgerBlue;
 }
 
 html .container .left-panel div img, body .container .left-panel div img {
@@ -177,23 +180,10 @@ html .formulaire form textarea, body .formulaire form textarea {
 html .formulaire form button, body .formulaire form button {
   width: 130px;
   height: 40px;
-  background-color: DodgerBlue;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  color: #fff;
-}
-
-html .formulaire form button:hover, body .formulaire form button:hover {
-  background-color: #fff;
-  border: solid 3px DodgerBlue;
-  color: DodgerBlue;
 }
 
 html .formulaire form:hover, body .formulaire form:hover {
-  border: solid 4px dodgerblue;
-  color: #fff;
-  background-image: url("../img/contact.jpg");
+  border-color: dodgerblue;
 }
 
 html iframe, body iframe {
@@ -226,11 +216,6 @@ html iframe, body iframe {
   }
   form input, form textarea {
     padding: 2% !important;
-  }
-  form:hover {
-    border: inherit;
-    color: inherit;
-    background-image: inherit;
   }
   .right-panel {
     display: none;

@@ -9,6 +9,20 @@ html, body {
         text-decoration: underline;
     }
 
+    button{
+        background-color: DodgerBlue;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        color: #fff;
+                    
+        &:hover{
+            background-color: #fff;
+            border : solid 3px DodgerBlue;
+            color: DodgerBlue;
+        }
+    }
+
     .container{
         display: flex;
         height: 100%;
@@ -31,18 +45,7 @@ html, body {
                 button{
                     width: 300px;
                     height: 50px;
-                    background-color: DodgerBlue;
-                    border: none;
-                    border-radius: 10px;
-                    font-weight: bold;
-                    color: #fff;
                     margin-top: 5%;
-                    
-                    &:hover{
-                        background-color: #fff;
-                        border : solid 3px DodgerBlue;
-                        color: DodgerBlue;
-                    }
                 }
 
                 img{
@@ -165,23 +168,10 @@ html, body {
             button {
                 width: 130px;
                 height: 40px;
-                background-color: DodgerBlue;
-                border: none;
-                border-radius: 10px;
-                font-weight: bold;
-                color: #fff;
-
-                &:hover {
-                    background-color: #fff;
-                    border : solid 3px DodgerBlue;
-                    color: DodgerBlue;
-                }
             }
 
             &:hover{
-                border: solid 4px dodgerblue;
-                color: #fff;
-                background-image: url("../img/contact.jpg");
+                border-color: dodgerblue;
             }
         }
     }
@@ -229,12 +219,6 @@ html, body {
 
         input, textarea {
             padding: 2% !important;
-        }
-
-        &:hover{
-                border: inherit;
-                color: inherit;
-                background-image: inherit;
         }
     }
 
